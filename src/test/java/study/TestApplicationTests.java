@@ -3,11 +3,13 @@ package study;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class TestApplicationTests {
+class TestApplicationTests
+{
 
 	@Test
-	void contextLoads() {
+	void contextLoads() 
+	{
+		System.out.println("Hello Test");
 	}
 
 }
